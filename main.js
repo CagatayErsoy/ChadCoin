@@ -46,4 +46,4 @@ let chadCoin=new BlockChain()
 chadCoin.addBlock(new Block(1, "02/05/2022" ,{amount:4}))
 chadCoin.addBlock(new Block(2, "03/05/2022" ,{amount:3}))
 console.log("Is blockchain Valid",chadCoin.isChainValid())
-// console.log(JSON.stringify(chadCoin,null,4));
+console.log(JSON.stringify(chadCoin,null,4))
